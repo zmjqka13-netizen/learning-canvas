@@ -1,0 +1,92 @@
+{
+  "passed": true,
+  "checks": 20,
+  "results": [
+    {
+      "name": "learner response starts blank",
+      "passed": true
+    },
+    {
+      "name": "answer starts concealed",
+      "passed": true
+    },
+    {
+      "name": "native answer reveal works",
+      "passed": true
+    },
+    {
+      "name": "self-evaluation updates progress",
+      "passed": true
+    },
+    {
+      "name": "response restored from local storage",
+      "passed": true
+    },
+    {
+      "name": "probe restored from local storage",
+      "passed": true
+    },
+    {
+      "name": "progress restored from local storage",
+      "passed": true
+    },
+    {
+      "name": "gap restored from local storage",
+      "passed": true
+    },
+    {
+      "name": "recall action hides all frames",
+      "passed": true
+    },
+    {
+      "name": "recall action focuses learner field",
+      "passed": true
+    },
+    {
+      "name": "walk-through action expands all frames",
+      "passed": true
+    },
+    {
+      "name": "source badge navigates to correct anchor",
+      "passed": true
+    },
+    {
+      "name": "export contains learner-authored record",
+      "passed": true
+    },
+    {
+      "name": "mobile layout has no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "print artifact created",
+      "passed": true
+    },
+    {
+      "name": "storage failure is explained",
+      "passed": true
+    },
+    {
+      "name": "storage failure keeps learner field usable",
+      "passed": true
+    },
+    {
+      "name": "no-JS native answer reveal works",
+      "passed": true
+    },
+    {
+      "name": "no external network requests",
+      "passed": true
+    },
+    {
+      "name": "no JavaScript runtime errors",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "requests": [
+    "file://<local>/%E5%AD%A6%E4%B9%A0%E7%94%BB%E5%B8%83-%E6%BC%94%E7%A4%BA.html",
+    "file://<local>/%E5%AD%A6%E4%B9%A0%E7%94%BB%E5%B8%83-%E6%BC%94%E7%A4%BA.html",
+    "file://<local>/%E5%AD%A6%E4%B9%A0%E7%94%BB%E5%B8%83-%E6%BC%94%E7%A4%BA.html"
+  ]
+}

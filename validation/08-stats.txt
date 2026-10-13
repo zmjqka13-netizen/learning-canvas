@@ -1,0 +1,15 @@
+COMMAND: python scripts/schedule.py stats --log examples\full-pipeline\spec.verification.jsonl
+EXIT: 0
+{
+  "runs": 1,
+  "topics": [
+    {
+      "topic": "HTTPS 保护了什么？",
+      "runs": 1,
+      "failed_runs": 0,
+      "last_coverage": 1.0,
+      "rework_recommended": false
+    }
+  ],
+  "note": "统计的是来源核验，不代表学习者掌握度。"
+}

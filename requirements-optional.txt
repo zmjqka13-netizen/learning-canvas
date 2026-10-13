@@ -1,0 +1,2 @@
+# Only needed to ingest PDF. TXT/Markdown and all core CLIs use the standard library.
+pypdf>=5,<7

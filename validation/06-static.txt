@@ -1,0 +1,3 @@
+COMMAND: python scripts/render_report.py examples\full-pipeline\spec.json --out examples\full-pipeline\report-static.html --static
+EXIT: 0
+{"html": "examples\\full-pipeline\\report-static.html", "static": true}

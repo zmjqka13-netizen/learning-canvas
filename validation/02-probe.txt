@@ -1,0 +1,2 @@
+COMMAND: python scripts/lossy_perturb.py examples\full-pipeline\spec.json --target F4 --seed 7 -o examples\full-pipeline\probe.json
+EXIT: 0

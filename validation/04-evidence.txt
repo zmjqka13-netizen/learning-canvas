@@ -1,0 +1,89 @@
+COMMAND: python scripts/anchor_verify.py examples\full-pipeline\spec.json assets\worked_example_https_source.md --log --write-back
+EXIT: 0
+{
+  "passed": true,
+  "coverage": 1.0,
+  "total": 10,
+  "verified": 10,
+  "ai_only": 0,
+  "failed": 0,
+  "gates": {
+    "source_readable": true,
+    "at_least_one": true,
+    "coverage_90": true,
+    "zero_failed": true
+  },
+  "items": [
+    {
+      "kind": "source",
+      "index": 0,
+      "status": "verified",
+      "reason": "已定位原文"
+    },
+    {
+      "kind": "source",
+      "index": 1,
+      "status": "verified",
+      "reason": "已定位原文"
+    },
+    {
+      "kind": "source",
+      "index": 2,
+      "status": "verified",
+      "reason": "已定位原文"
+    },
+    {
+      "kind": "source",
+      "index": 3,
+      "status": "verified",
+      "reason": "已定位原文"
+    },
+    {
+      "kind": "source",
+      "index": 4,
+      "status": "verified",
+      "reason": "已定位原文"
+    },
+    {
+      "kind": "claim",
+      "frame": 0,
+      "index": 0,
+      "status": "verified",
+      "reason": "已定位原文"
+    },
+    {
+      "kind": "claim",
+      "frame": 0,
+      "index": 1,
+      "status": "verified",
+      "reason": "已定位原文"
+    },
+    {
+      "kind": "claim",
+      "frame": 1,
+      "index": 0,
+      "status": "verified",
+      "reason": "已定位原文"
+    },
+    {
+      "kind": "claim",
+      "frame": 2,
+      "index": 0,
+      "status": "verified",
+      "reason": "已定位原文"
+    },
+    {
+      "kind": "claim",
+      "frame": 3,
+      "index": 0,
+      "status": "verified",
+      "reason": "已定位原文"
+    }
+  ],
+  "source_error": null,
+  "topic": "HTTPS 保护了什么？",
+  "timestamp": "2026-10-13T10:04:35.554262+00:00",
+  "source_sha256": "d25e5886b1459376a617b964834401643b0d653170f23fdf2daf5b0497f3633c",
+  "source_path": "assets\\worked_example_https_source.md",
+  "spec_sha256": "a3d068fe67220c237f37b73f20e7d111f455fc51620b0b712508beea79d6f721"
+}

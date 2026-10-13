@@ -1,0 +1,3 @@
+COMMAND: python skill-creator/scripts/quick_validate.py .
+EXIT: 0
+Skill is valid!

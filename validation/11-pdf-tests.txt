@@ -1,0 +1,10 @@
+COMMAND: python tests/pdf_suite.py
+EXIT: 0
+test_p01_text_pdf_index_and_gate (__main__.PDFs.test_p01_text_pdf_index_and_gate) ... ok
+test_p02_blank_pdf_fails (__main__.PDFs.test_p02_blank_pdf_fails) ... ok
+test_p03_encrypted_pdf_fails (__main__.PDFs.test_p03_encrypted_pdf_fails) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.999s
+
+OK

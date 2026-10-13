@@ -1,0 +1,38 @@
+COMMAND: python tests/regression_suite.py
+EXIT: 0
+test_c01_index_line_numbers (__main__.Cases.test_c01_index_line_numbers) ... ok
+test_c02_probe_deterministic_target (__main__.Cases.test_c02_probe_deterministic_target) ... ok
+test_c03_unknown_target (__main__.Cases.test_c03_unknown_target) ... ok
+test_c04_writeback_and_stale (__main__.Cases.test_c04_writeback_and_stale) ... ok
+test_c05_schedule_and_stats (__main__.Cases.test_c05_schedule_and_stats) ... ok
+test_g01_valid_evidence (__main__.Cases.test_g01_valid_evidence) ... ok
+test_g02_missing_source (__main__.Cases.test_g02_missing_source) ... ok
+test_g03_empty_source (__main__.Cases.test_g03_empty_source) ... ok
+test_g04_no_matches (__main__.Cases.test_g04_no_matches) ... ok
+test_g05_missing_anchor (__main__.Cases.test_g05_missing_anchor) ... ok
+test_g06_ai_is_in_denominator (__main__.Cases.test_g06_ai_is_in_denominator) ... ok
+test_g07_fake_display_quote (__main__.Cases.test_g07_fake_display_quote) ... ok
+test_g08_removed_negation (__main__.Cases.test_g08_removed_negation) ... ok
+test_g09_broken_pdf (__main__.Cases.test_g09_broken_pdf) ... ok
+test_i01_escape_payload (__main__.Cases.test_i01_escape_payload) ... ok
+test_i02_escape_payload (__main__.Cases.test_i02_escape_payload) ... ok
+test_i03_escape_payload (__main__.Cases.test_i03_escape_payload) ... ok
+test_i04_escape_payload (__main__.Cases.test_i04_escape_payload) ... ok
+test_i05_escape_payload (__main__.Cases.test_i05_escape_payload) ... ok
+test_i06_escape_payload (__main__.Cases.test_i06_escape_payload) ... ok
+test_i07_escape_payload (__main__.Cases.test_i07_escape_payload) ... ok
+test_i08_escape_payload (__main__.Cases.test_i08_escape_payload) ... ok
+test_s01_frame_range (__main__.Cases.test_s01_frame_range) ... ok
+test_s02_probe_required (__main__.Cases.test_s02_probe_required) ... ok
+test_s03_irreducible_reason (__main__.Cases.test_s03_irreducible_reason) ... ok
+test_s04_duplicate_ids (__main__.Cases.test_s04_duplicate_ids) ... ok
+test_s05_broken_source_link (__main__.Cases.test_s05_broken_source_link) ... ok
+test_s06_dry_run (__main__.Cases.test_s06_dry_run) ... ok
+test_s07_template_contract (__main__.Cases.test_s07_template_contract) ... ok
+test_s08_static_is_readable (__main__.Cases.test_s08_static_is_readable) ... ok
+test_s09_no_external_resources (__main__.Cases.test_s09_no_external_resources) ... ok
+
+----------------------------------------------------------------------
+Ran 31 tests in 3.632s
+
+OK

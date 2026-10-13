@@ -1,0 +1,15 @@
+COMMAND: python scripts/anchor_verify.py --help
+EXIT: 0
+usage: anchor_verify.py [-h] [--log [LOG]] [--write-back] spec source
+
+Independent evidence gate. Does not import renderer/planner/schema code. Exact
+normalized quote matching is evidence location, NOT semantic entailment.
+
+positional arguments:
+  spec
+  source
+
+options:
+  -h, --help    show this help message and exit
+  --log [LOG]
+  --write-back

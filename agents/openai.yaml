@@ -1,0 +1,6 @@
+interface:
+  display_name: "学习画布"
+  short_description: "把材料做成带来源锚点、自测和留白复述的单文件交互式学习报告"
+  default_prompt: "使用 $learning-canvas 把这份材料做成可复盘的交互式学习报告。"
+policy:
+  allow_implicit_invocation: true

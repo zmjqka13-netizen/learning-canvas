@@ -1,0 +1,11 @@
+# Python 缓存
+__pycache__/
+*.py[cod]
+
+# 回归测试的临时工作区（测试默认写在工作区同级目录）
+test-runs/
+
+# README「快速体验」一节在本地生成的产物
+/demo.html
+/browser-check/
+/assets/worked_example_https.verification.jsonl

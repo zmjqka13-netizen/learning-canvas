@@ -1,0 +1,3 @@
+COMMAND: python scripts/flow_plan.py assets\worked_example_https_source.md --topic HTTPS 保护了什么？ -o examples\full-pipeline\spec.json
+EXIT: 0
+{"spec": "examples\\full-pipeline\\spec.json", "index": "examples\\full-pipeline\\spec.flow-index.json", "status": "需人工完成切帧和断言；骨架不可直接渲染"}

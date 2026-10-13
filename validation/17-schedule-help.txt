@@ -1,0 +1,12 @@
+COMMAND: python scripts/schedule.py --help
+EXIT: 0
+usage: schedule.py [-h] {plan,stats} ...
+
+Print a review proposal or summarize evidence logs. Does not create system
+reminders.
+
+positional arguments:
+  {plan,stats}
+
+options:
+  -h, --help    show this help message and exit

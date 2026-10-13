@@ -1,0 +1,18 @@
+COMMAND: python scripts/render_report.py --help
+EXIT: 0
+usage: render_report.py [-h] [--out OUT] [--dry-run] [--static]
+                        [--template TEMPLATE]
+                        spec
+
+Render a validated spec into a self-contained HTML; unverified drafts remain
+visibly marked.
+
+positional arguments:
+  spec
+
+options:
+  -h, --help           show this help message and exit
+  --out OUT
+  --dry-run
+  --static
+  --template TEMPLATE

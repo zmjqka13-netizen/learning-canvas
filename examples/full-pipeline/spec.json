@@ -1,0 +1,249 @@
+{
+  "version": "1.0",
+  "topic": "HTTPS 保护了什么？",
+  "subtitle": "用四个必要知识帧，分清传输保护、身份认证与网站可信度。",
+  "source": {
+    "path": "assets/worked_example_https_source.md",
+    "sha256": "d25e5886b1459376a617b964834401643b0d653170f23fdf2daf5b0497f3633c"
+  },
+  "frames": [
+    {
+      "id": "F1",
+      "title": "传输保密：保护路上的数据",
+      "subtitle": "先区分保护对象，再说加密",
+      "body": "HTTPS 使用 TLS 保护浏览器与服务器之间传输的 HTTP 数据。{S1}\n加密让传输中的数据难以被第三方直接读取。{S2}",
+      "why": "删去这一帧，学习者无法解释 HTTPS 保护的对象与保密作用。",
+      "claims": [
+        {
+          "text": "HTTPS 使用 TLS 保护浏览器与服务器之间传输的 HTTP 数据。",
+          "anchor": "HTTPS 使用 TLS 保护浏览器与服务器之间传输的 HTTP 数据。",
+          "source_id": "S1",
+          "verified": true,
+          "verification_status": "verified"
+        },
+        {
+          "text": "加密让传输中的数据难以被第三方直接读取。",
+          "anchor": "加密让传输中的数据难以被第三方直接读取。",
+          "source_id": "S2",
+          "verified": true,
+          "verification_status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "F2",
+      "title": "完整性：发现路上的改动",
+      "subtitle": "保密之外，还要看数据有没有被改",
+      "body": "完整性保护使传输中的数据被偷偷修改时能够被检测到。{S3}",
+      "why": "删去这一帧，只剩保密，会遗漏检测传输篡改这一保护目标。",
+      "claims": [
+        {
+          "text": "完整性保护使传输中的数据被偷偷修改时能够被检测到。",
+          "anchor": "完整性保护使传输中的数据被偷偷修改时能够被检测到。",
+          "source_id": "S3",
+          "verified": true,
+          "verification_status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "F3",
+      "title": "服务器认证：确认通信对象",
+      "subtitle": "想一想：加密通信究竟连到了谁？",
+      "body": "服务器认证帮助浏览器确认通信对象，证书把公钥与域名关联起来。{S4}",
+      "why": "删去这一帧，学习者无法把传输保护与服务器身份联系起来。",
+      "claims": [
+        {
+          "text": "服务器认证帮助浏览器确认通信对象，证书把公钥与域名关联起来。",
+          "anchor": "服务器认证帮助浏览器确认通信对象，证书把公钥与域名关联起来。",
+          "source_id": "S4",
+          "verified": true,
+          "verification_status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "F4",
+      "title": "能力边界：连接安全不保证内容可信",
+      "subtitle": "保留“不保证”，才没有把结论扩大",
+      "body": "HTTPS 不保证网站内容可信，也不能仅凭使用 HTTPS 就认定网站安全。{S5}",
+      "why": "删去这一帧，容易从通信保护跳到网站可信的错误结论。",
+      "claims": [
+        {
+          "text": "HTTPS 不保证网站内容可信，也不能仅凭使用 HTTPS 就认定网站安全。",
+          "anchor": "HTTPS 不保证网站内容可信，也不能仅凭使用 HTTPS 就认定网站安全。",
+          "source_id": "S5",
+          "verified": true,
+          "verification_status": "verified"
+        }
+      ]
+    }
+  ],
+  "probes": [
+    {
+      "id": "L1",
+      "target": "F4",
+      "kind": "drop",
+      "prompt": "HTTPS 使用 TLS 保护浏览器与服务器之间传输的 HTTP 数据。 加密让传输中的数据难以被第三方直接读取。 完整性保护使传输中的数据被偷偷修改时能够被检测到。 服务器认证帮助浏览器确认通信对象，证书把公钥与域名关联起来。\n\n这个压缩版遗漏了哪一个必要知识单元？遗漏会造成什么误解？",
+      "answer": "遗漏 F4：能力边界：连接安全不保证内容可信。",
+      "explanation": "删去这一帧，容易从通信保护跳到网站可信的错误结论。",
+      "seed": 7
+    }
+  ],
+  "own_words": {
+    "prompt": "合上上面的四个知识帧，用自己的话讲清 HTTPS 的保护对象、三个保护目标和能力边界。写完再展开核对，只标出漏帧与新增。"
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "text": "HTTPS 使用 TLS 保护浏览器与服务器之间传输的 HTTP 数据。",
+      "paragraph_id": "P0001",
+      "line_start": 1,
+      "line_end": 1,
+      "verified": true,
+      "verification_status": "verified"
+    },
+    {
+      "id": "S2",
+      "text": "加密让传输中的数据难以被第三方直接读取。",
+      "paragraph_id": "P0002",
+      "line_start": 3,
+      "line_end": 3,
+      "verified": true,
+      "verification_status": "verified"
+    },
+    {
+      "id": "S3",
+      "text": "完整性保护使传输中的数据被偷偷修改时能够被检测到。",
+      "paragraph_id": "P0003",
+      "line_start": 5,
+      "line_end": 5,
+      "verified": true,
+      "verification_status": "verified"
+    },
+    {
+      "id": "S4",
+      "text": "服务器认证帮助浏览器确认通信对象，证书把公钥与域名关联起来。",
+      "paragraph_id": "P0004",
+      "line_start": 7,
+      "line_end": 7,
+      "verified": true,
+      "verification_status": "verified"
+    },
+    {
+      "id": "S5",
+      "text": "HTTPS 不保证网站内容可信，也不能仅凭使用 HTTPS 就认定网站安全。",
+      "paragraph_id": "P0005",
+      "line_start": 9,
+      "line_end": 9,
+      "verified": true,
+      "verification_status": "verified"
+    }
+  ],
+  "rationale": {
+    "flow": "F：建立四帧骨架。L：故意删去能力边界，让你定位损失。O：保留空白，等待你自己重述。W：每条领域断言接回源材料中的准确引句。",
+    "frame_method": "以保护对象与保密、完整性、服务器认证、能力边界分组，把保护对象并入保密帧，留下四个互补的必要单元。每帧都写出删除后损失什么。",
+    "theory_map": [
+      {
+        "name": "提取练习",
+        "application": "本报告选择先让你作答与重述，再揭示答案。设计参考 Roediger 与 Karpicke（2006）。"
+      },
+      {
+        "name": "自我解释",
+        "application": "本报告让你组织自己的说明，并核对漏帧与新增。设计参考 Chi 等（1994）。"
+      },
+      {
+        "name": "间隔练习",
+        "application": "排期脚本给出可调整的复习提案。设计参考 Cepeda 等（2006），不声称默认间隔是个体最优值。"
+      }
+    ],
+    "prior_art": "本报告借用提纲、自测和自我解释的做法，以删除检验、来源锚点与独立核验连接它们。FLOW 是设计组合；本示例不声称整个流程已被独立实证验证。理论原始来源见技能包 references/theory_map.md；领域原始来源见配套 source.md。"
+  },
+  "verification": {
+    "passed": true,
+    "coverage": 1.0,
+    "total": 10,
+    "verified": 10,
+    "ai_only": 0,
+    "failed": 0,
+    "gates": {
+      "source_readable": true,
+      "at_least_one": true,
+      "coverage_90": true,
+      "zero_failed": true
+    },
+    "items": [
+      {
+        "kind": "source",
+        "index": 0,
+        "status": "verified",
+        "reason": "已定位原文"
+      },
+      {
+        "kind": "source",
+        "index": 1,
+        "status": "verified",
+        "reason": "已定位原文"
+      },
+      {
+        "kind": "source",
+        "index": 2,
+        "status": "verified",
+        "reason": "已定位原文"
+      },
+      {
+        "kind": "source",
+        "index": 3,
+        "status": "verified",
+        "reason": "已定位原文"
+      },
+      {
+        "kind": "source",
+        "index": 4,
+        "status": "verified",
+        "reason": "已定位原文"
+      },
+      {
+        "kind": "claim",
+        "frame": 0,
+        "index": 0,
+        "status": "verified",
+        "reason": "已定位原文"
+      },
+      {
+        "kind": "claim",
+        "frame": 0,
+        "index": 1,
+        "status": "verified",
+        "reason": "已定位原文"
+      },
+      {
+        "kind": "claim",
+        "frame": 1,
+        "index": 0,
+        "status": "verified",
+        "reason": "已定位原文"
+      },
+      {
+        "kind": "claim",
+        "frame": 2,
+        "index": 0,
+        "status": "verified",
+        "reason": "已定位原文"
+      },
+      {
+        "kind": "claim",
+        "frame": 3,
+        "index": 0,
+        "status": "verified",
+        "reason": "已定位原文"
+      }
+    ],
+    "source_error": null,
+    "topic": "HTTPS 保护了什么？",
+    "timestamp": "2026-10-13T23:24:25.928994+00:00",
+    "source_sha256": "d25e5886b1459376a617b964834401643b0d653170f23fdf2daf5b0497f3633c",
+    "source_path": "assets/worked_example_https_source.md",
+    "spec_sha256": "439ce0a12a47726f7df923a79068ea19a21e44a5cf8a8ceac83a98816fec759b"
+  }
+}

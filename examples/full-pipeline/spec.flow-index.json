@@ -1,0 +1,61 @@
+{
+  "source": "assets/worked_example_https_source.md",
+  "sha256": "d25e5886b1459376a617b964834401643b0d653170f23fdf2daf5b0497f3633c",
+  "line_number_basis": "PDF 为抽取文本行号；其他材料为原始文本行号。",
+  "paragraphs": [
+    {
+      "id": "P0001",
+      "line_start": 1,
+      "line_end": 1,
+      "text": "HTTPS 使用 TLS 保护浏览器与服务器之间传输的 HTTP 数据。"
+    },
+    {
+      "id": "P0002",
+      "line_start": 3,
+      "line_end": 3,
+      "text": "加密让传输中的数据难以被第三方直接读取。"
+    },
+    {
+      "id": "P0003",
+      "line_start": 5,
+      "line_end": 5,
+      "text": "完整性保护使传输中的数据被偷偷修改时能够被检测到。"
+    },
+    {
+      "id": "P0004",
+      "line_start": 7,
+      "line_end": 7,
+      "text": "服务器认证帮助浏览器确认通信对象，证书把公钥与域名关联起来。"
+    },
+    {
+      "id": "P0005",
+      "line_start": 9,
+      "line_end": 9,
+      "text": "HTTPS 不保证网站内容可信，也不能仅凭使用 HTTPS 就认定网站安全。"
+    },
+    {
+      "id": "P0006",
+      "line_start": 11,
+      "line_end": 11,
+      "text": "来源说明：本文件是为演示源索引、知识帧及锚点核验编写的中文教学材料，不是用户提交的待学原文。前四段根据 MDN 的 TLS 说明概括，第五段根据 Chromium 对连接安全与网站可信度的区别概括；请在高风险或深入学习场景直接使用完整原始资料。"
+    },
+    {
+      "id": "P0007",
+      "line_start": 13,
+      "line_end": 13,
+      "text": "MDN · Transport Layer Security：https://developer.mozilla.org/en-US/docs/Web/Security/Defenses/Transport_Layer_Security"
+    },
+    {
+      "id": "P0008",
+      "line_start": 15,
+      "line_end": 15,
+      "text": "Chromium · An Update on the Lock Icon：https://blog.chromium.org/2023/05/an-update-on-lock-icon.html"
+    },
+    {
+      "id": "P0009",
+      "line_start": 17,
+      "line_end": 17,
+      "text": "资料核对日期：2026-10-13。"
+    }
+  ]
+}

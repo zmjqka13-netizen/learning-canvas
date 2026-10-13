@@ -1,0 +1,23 @@
+COMMAND: python tests/extended_suite.py
+EXIT: 0
+test_e01_source_change_invalidates_render (__main__.Extended.test_e01_source_change_invalidates_render) ... ok
+test_e02_template_tokens_are_literal_data (__main__.Extended.test_e02_template_tokens_are_literal_data) ... ok
+test_e03_location_must_be_true (__main__.Extended.test_e03_location_must_be_true) ... ok
+test_e04_empty_spec_fails (__main__.Extended.test_e04_empty_spec_fails) ... ok
+test_e05_invalid_json_fails (__main__.Extended.test_e05_invalid_json_fails) ... ok
+test_e06_ai_below_threshold_is_visible (__main__.Extended.test_e06_ai_below_threshold_is_visible) ... ok
+test_e07_failed_minor_item_still_blocks (__main__.Extended.test_e07_failed_minor_item_still_blocks) ... ok
+test_e08_whitespace_normalization (__main__.Extended.test_e08_whitespace_normalization) ... ok
+test_e09_stdout_plan_is_json (__main__.Extended.test_e09_stdout_plan_is_json) ... ok
+test_e10_bom_and_crlf_ingestion (__main__.Extended.test_e10_bom_and_crlf_ingestion) ... ok
+test_e11_english_negation (__main__.Extended.test_e11_english_negation) ... ok
+test_e12_full_negative_quote_accepted (__main__.Extended.test_e12_full_negative_quote_accepted) ... ok
+test_e13_bad_schedule_intervals (__main__.Extended.test_e13_bad_schedule_intervals) ... ok
+test_e14_bad_log_reported (__main__.Extended.test_e14_bad_log_reported) ... ok
+test_e15_schema_rejects_learner_prefill (__main__.Extended.test_e15_schema_rejects_learner_prefill) ... ok
+test_e16_unverified_items_are_flagged (__main__.Extended.test_e16_unverified_items_are_flagged) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 1.699s
+
+OK

@@ -1,0 +1,14 @@
+COMMAND: python scripts/flow_plan.py --help
+EXIT: 0
+usage: flow_plan.py [-h] [--topic TOPIC] [-o OUT] source
+
+Build an addressable source index and an explicitly unfinished report
+skeleton.
+
+positional arguments:
+  source
+
+options:
+  -h, --help         show this help message and exit
+  --topic TOPIC
+  -o OUT, --out OUT

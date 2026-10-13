@@ -1,0 +1,3 @@
+COMMAND: python tests/print_check.py validation/previews/print-preview.pdf
+EXIT: 0
+Print checks passed: 5 pages, all learning stages and answer included.

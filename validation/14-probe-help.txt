@@ -1,0 +1,14 @@
+COMMAND: python scripts/lossy_perturb.py --help
+EXIT: 0
+usage: lossy_perturb.py [-h] [--target TARGET] [--seed SEED] [-o OUT] spec
+
+Deterministically omit one frame; never create a learner's own-words response.
+
+positional arguments:
+  spec
+
+options:
+  -h, --help         show this help message and exit
+  --target TARGET
+  --seed SEED
+  -o OUT, --out OUT
